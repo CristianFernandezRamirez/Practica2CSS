@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type= "text/css" href="./css/estilo.css">
+    <title>Primera Practica HTML</title>
+</head>
+<body>
+    <h1>Este es un encabezado grandote</h1><br>
+ 
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ul>
+</br>
+ 
+<section>
+    <article>
+        Esto es un párrafo normal
+       
+    </article>
+   
+    <article>
+        Imagen 1 <br>
+        <img src="https://cdn.magzter.com/1359122596/1582616054/articles/5e55fb46d3044/crp_Rosala.jpg" width="500" alt="rosi">
+        <br>
+        Imagen 2 <br>
+        <img src="./rosi.webp" alt="Malamente" width="600">
+    </article>
+   
+    <article>
+        Video 1 <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fjAoRvpwiVY?si=_FJp-N1TJ2MJeBiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        Audio 2 <br>
+        <audio controls>
+            <source src="./Rosalía ; Pienso en tu mirá __Letra__.mp3" type="audio/mpeg">
+          </audio>
+         
+    </article>
+ 
+    <article>
+        <form action="#" method="post">
+            <!-- Nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <!-- Correo Electrónico -->
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br>
+            <!-- Tiempo -->
+            <label for="tiempo">Tiempo (HH:MM):</label>
+            <input type="time" id="tiempo" name="tiempo" required>
+            <br>
+
+            Intervalo (min 0, max 10):
+            <input type="range" name="range_control" min="0" max="10" value="0" oninput="range_control_value.value = this.value" />
+            <output name="range_control_value">0</output>
+            <br />
+
+            <!-- Fecha de Nacimiento -->
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+            <!-- Mes -->
+            <label for="mes">Mes de nacimiento:</label>
+            <input type="month" id="mes" name="mes" required>
+            <br>
+            <!-- Semana de nacimiento -->
+            <label for="semana">Semana del año:</label>
+            <input type="week" id="semana" name="semana" required>
+            <br>
+            <!-- Número menor de 10 -->
+            <label for="menor10">Número menor de 10:</label>
+            <input type="number" id="menor10" name="menor10" min="0" max="9" required>
+            <br>
+            <!-- Número mayor de 10 -->
+            <label for="mayor10">Número mayor de 10:</label>
+            <input type="number" id="mayor10" name="mayor10" min="11" required>
+            <br>
+            <!-- Número de teléfono -->
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="1234567890" required>
+            <br>
+            <!-- Búsqueda por color -->
+            <label for="color">Buscar por color:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <!-- Botón de envío -->
+            <input type="submit" value="Enviar" class="submit-btn">
+        </form>
+    </article>
+</section>
+ 
+<footer> Este es el pie de mi página web</footer>
+</body>
+ 
+</html>

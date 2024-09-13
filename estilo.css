@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+ 
+/* fondo para prac1 */
+h1 {
+    font-size: 36px;
+    color: darkblue;
+}
+ 
+/* Estilo fondo*/
+nav {
+    background-color: #ff7676; /* Fondo rojo*/
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #0f0; /*link verde*/
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Press Start 2P', monospace; /*Fuente*/
+    background-color: #ff7676 ; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+  }
+  
+  /*imagenes*/
+  img {
+    border-radius: 10px; /* Bordes suaves*/
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra blanca*/
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.8)); /* Sombra */
+  }
+
+  /* Reproductor*/
+audio, video {
+    border: 5px solid #f00; /* Borde rojo */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8); /*Sombra roja*/
+    margin: 20px 0;
+    }
+    
+    /*Formulario*/
+    #Formulario Materias {
+    background-color: #7d7878; /* Fondo gris oscuro */
+    border: 5px solid #0f0; /* Borde verde */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Resplandor verde */
+    padding: 20px;
+    margin: 20px auto; /* Centrar*/
+    max-width: 600px; /* Ancho máximo */
+    }
+    
+    /* Elementos del formulario */
+    input, select, button {
+    font-family: 'Press Start 2P', monospace;
+    background-color: #111; /* Fondo gris muy oscuro */
+    color: #fff;
+    border: 2px solid #f00; /* Borde rojo */
+border-radius: 5px;
+padding: 10px;
+margin: 5px 0;
+}
+
+button[type="submit"] {
+background-color: #20f0; /* Fondo verde */
+color: #000; /* Texto negro */
+    cursor: pointer;
+}
+
+/* Otros elementos */
+h1, h2, h3 {
+text-shadow: 2px 2px 5px #f00; /* Sombra roja en los títulos */
+}
+
+nav li {
+display: inline;
+margin: 0 10px;
+}
+
+a {
+color: #0f0; /* Enlaces en verde */
+text-decoration: none;
+}
+
+footer {
+color: #000; /* or color: black; */
+background-color: #fff; /* Fondo blanco */
+padding: 10px;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+border-top: 1px solid #000; /* Borde superior negro */
+}
